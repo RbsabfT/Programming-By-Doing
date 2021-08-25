@@ -8,12 +8,12 @@ public class DumbCalculator{
         Scanner input = new Scanner(System.in);
         
         System.out.print("\nWhat is your first number? ");
-        fnum = input.nextInt();
+        fnum = input.nextFloat();
         System.out.print("\nWhat is your second number? ");
-        snum = input.nextInt();
+        snum = input.nextFloat();
         System.out.print("\nWhat is your third number? ");
-        tnum = input.nextInt();
+        tnum = input.nextFloat();
 
-        System.out.print("("+fnum +" + "+snum+" + "+tnum+" = "+ (fnum + snum + tnum)/2+")");        
+        System.out.print("\n("+fnum +" + "+snum+" + "+tnum+") / 2"+" = "+ (fnum + snum + tnum)/2);        
     }
 }
